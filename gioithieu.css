@@ -1,0 +1,92 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+body{
+    margin: 0px;padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#web{
+    width: 1200px;
+    padding: 0;margin: 0 auto;
+}
+header{
+    background-color: black;
+    height: 70px;
+}
+header a img{
+    margin-top: -15px;
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 187, 131);
+    font-weight: 900;
+    padding-left: 50px;
+    line-height: 70px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: red;
+}
+.content{
+    margin-top: 30px;}
+.content>h1{
+    color: rgb(45, 45, 65);
+    text-align: center;
+}
+#lol{
+    font-size: 70px;
+}
+footer{
+    background-color: rgb(20, 20, 20);
+    height: 350px;
+    margin-top: 30px;
+}
+.logoriot{
+    padding-top: 50px;
+    margin-left: 480px;
+    float: left;
+}
+.logogarenna{
+    padding-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+.logoesports{
+    padding-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+footer p{
+    text-align: center;
+    padding-top: 120px;
+}
+.fb{
+    float: left;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+.youtobe{
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+.play{
+    padding-top: 100px;
+    float: left;
+    margin-left: -300px;
+}
+.tuoi{
+  float: right;
+  margin-top: 90px;
+  margin-right: 300px;
+}
+   

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="trangchu.css">
+    <meta name="viewport" content="device-width,initial-scale=1">
+    <script>
+        var anhs=["anh/assanh1.jpg","anh/assanh2.jpg","anh/assanh3.jpg","anh/assanh4.jpg"];
+        var c=0;
+        function chay(){
+            document.getElementById("anh").src=anhs[c];
+            c++;
+            if(c==anhs.length){
+                c=0;
+            }
+            setTimeout("chay()",1000);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="web">
+        <header>
+            <a href="trangchu.html"><img align="left" src="anh/logololpng.png"></a>        
+            <nav>
+                <ul>
+                    <li><a href="trangchu.html">TRANG CHỦ</a></li>
+                    <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="thongbao.html">THÔNG BÁO</a></li>
+                    <li><a href="sukien.html">SỰ KIỆN</a></li>
+                    <li><a href="congdong.html">CỘNG ĐỒNG</a></li>
+                    <li><a href="dangki.html">ĐĂNG KÍ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- end-header -->
+        <menu>
+            <img width="1200px" id="anh" height="300px" src="anh/assanh1.jpg">
+            <script>
+                chay();
+            </script>
+        </menu>
+        <!-- endmenu -->
+        <section class="share">
+            <input type="text" placeholder="tìm kiếm nhanh"> <button>search</button>
+        </section>
+        <article class="contenttop1">
+            <div>
+                <a href="sukien.html"><img width="350px" height="auto" src="anh/noidung1.jpg" alt=""></a>
+            </div>
+            <h5><a href="sukien.html">Sự kiện</a></h5>
+            <h3> Tham gia "Kho Tàng Vũ Trụ" - Hốt Phi<br>Hành
+                Gia mới với giảm giá đến<br>80% từ 02/07 đến 08/07</h3>
+        </article>
+        <article class="contenttop2">
+            <div>
+                <a href="quydoirp.html"><img width="350px" height="200px" src="anh/noidung3.jpg" alt=""></a>
+            </div>
+            <h5> <a href="quydoirp.html">Quy đổi RP</a></h5>
+            <h3>Quy đổi RP - Nhận MIỄN PHÍ báu vật <br> SIÊU PHẨM cực kỳ giá trị từ <br> 00:30 02/07 đến 23:59 08/07
+            </h3>
+        </article>
+        <article class="contenttop3">
+            <div>
+                <a href="cosplay.html"><img width="350px" height="197px" src="anh/noidung2.jpg" alt=""></a>
+            </div>
+            <h5> <a href="cosplay.html">Cosplay</a></h5>
+            <h3>Công bố kết quả cuộc thi cosplay
+                <br> "Tiệc Bể Bơi" tháng 06/2021
+            </h3>
+        </article>
+        <!-- end-contentphan1 -->
+        <article class="contenttop1">
+            <div>
+                <a href="thongbao.html"><img width="350px" height="200px" src="anh/noidung4.jpg" alt=""></a>
+            </div>
+            <h5><a href="thongbao.html">Thông báo</a></h5>
+            <h3>BOOYAH! Việt Nam chính thức <br> ra mắt từ 1/7/2021
+            </h3>
+        </article>
+        <article class="contenttop2">
+            <div>
+                <a href="kehoachphattrien.html"><img width="350px" height="200px" src="anh/noidung5.jpg" alt=""></a>
+            </div>
+            <h5> <a href="kehoachphattrien.html">Nhật kí phát triển</a></h5>
+            <h3>Nhật ký phát triển: <br> Khởi động dự án cập nhật Udyr
+            </h3>
+        </article>
+        <article class="contenttop3">
+            <div>
+                <a href="congdong.html"><img width="350px" height="197px" src="anh/noidung6.jpg" alt=""></a>
+            </div>
+            <h5> <a href="congdong.html">Cộng đồng</a></h5>
+            <h3>Công bố kết quả cuộc thi cosplay
+                <br> "Tiệc Bể Bơi" tháng 06/2021
+            </h3>
+        </article>
+        <!-- end-contentphan2 -->
+        <section class="xem">
+            <img src="anh/xemthem.png" alt="">
+        </section>
+        <footer>
+            <div class="logoriot">
+                <img width="80px" height="50px" src="anh/riot.png" alt="">
+            </div>
+            <div class="logogarenna">
+                <img width="50px" height="50px" src="anh/logogarenna.gif" alt="">
+            </div>
+            <div class="logoesports">
+                <img width="60px" height="50px" src="anh/logoesports.png" alt="">
+            </div>
+            <p style="color: white;">
+                Sản phẩm được hợp tác phát hành bởi Công ty TNHH Liên Minh Huyền Thoại & Công ty Cổ phần Giải trí và Thể
+                thao Điện tử Việt Nam. <br>
+                Văn phòng đại diện: Tầng 29, tòa nhà Trung tâm Lotte Hà Nội, số 54 đường Liễu Giai, phường Cống Vị, quận
+                Ba Đình, thành phố Hà Nội, Việt Nam. <br>
+                Điện thoại: (04)7305-3939; Fax: (04)3759-2429
+            </p>
+            <div class="tren">
+                <div class="fb">
+                    <a href="https://www.facebook.com/LienMinhHuyenThoai"><img width="40px" height="40px"
+                            src="anh/fb.png" alt=""></a>
+                </div>
+                <div class="youtobe">
+                    <a href="https://www.youtube.com/user/GarenaVietnam"><img width="40px" height="40px"
+                            src="anh/Youtube-logo-2017.png" alt=""></a>
+                </div>
+            </div>
+            <div class="duoi">
+                <div class="play">
+                    <a href="https://lienminh.garena.vn/download"><img src="anh/choimienphi.png" alt=""></a>
+                </div>
+                <div class="tuoi">
+                    <img src="anh/12+.png" alt="">
+                </div>
+            </div>
+        </footer>
+        <!-- end-footer -->
+    </div>
+</body>
+
+</html>
